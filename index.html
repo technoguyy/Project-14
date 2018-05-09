@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quizz</title>
+	<link rel="stylesheet" type="text/css" href="quiz.css">
+	<link rel="stylesheet" type="text/css" href="css/fontawesome.css">
+	<script type="text/javascript" src="qiuz.js"></script>
+</head>
+<body>
+<h1>the GREAT Quiz millions play</h1>
+<form id ="quiz" name="quiz">
+<p> What is the Capital of  Rhode Island?</p>
+<input type="text" id="textbox" name="q1">
+<p>What is the capital of Connecticut?</p>
+<input type="radio" id="mc"name="q2" value="Hartford">Hartford<br>
+<input type="radio" id="mc"name="q2" value="Heartford">Heartford<br>
+<p>What is the capital of New York?</p>
+<input type="radio" id="mc"name="q3" value="Albany">Albany<br>
+
+<input type="radio" id="mc"name="q3" value="All Benny's">All Benny's<br>
+
+<input type="button" id="button" value="Finish" onclick="check();">
+</form>
+
+<div id="after_submit">
+	<p id="message"> </p>
+<p id="number_correct"></p>
+<img id="picture">
+</div>
+</body>
+</html>
